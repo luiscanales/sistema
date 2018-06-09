@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','SigninController');
+Route::get('/','DashboardController');
 
 Route::get('/usuarios','UserController@index');
 
@@ -26,8 +26,6 @@ Route::get('/contenedores','ContenedoresController@index');
 Route::get('/contenedores/nuevo','ContenedoresController@create');
 
 Route::get('/contenedores/{ubicacion}','ContenedoresController@show');
-
-Route::get('/dashboard','DashboardController');
 
 Route::get('/reportes','ReportesController');
 
