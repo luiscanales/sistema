@@ -1,11 +1,9 @@
 @extends('layout')
 
 @section('content')
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Estado Actual de los Contenedores</h1>
+</div>
     <html>
         <head>
           <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
