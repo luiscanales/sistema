@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','DashboardController');
+Route::get('/','DashboardController@index');
 
 Route::get('/usuarios','UserController@index');
 
