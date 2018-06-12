@@ -10,6 +10,7 @@
         </head>
         <body>
             {!!$map['html']!!}
+            <div id="directionsDiv"></div>
         </body>
     </html>
 @endsection

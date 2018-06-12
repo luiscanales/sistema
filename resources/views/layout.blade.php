@@ -57,6 +57,12 @@
                   Ubicación
                 </a>
               </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/ruta">
+                    <span data-feather="map"></span>
+                    Ruta Sugerida
+                  </a>
+                </li>
             </ul>
           </div>
         </nav>
