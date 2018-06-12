@@ -46,21 +46,15 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/reportes">
-                  <span data-feather="bar-chart-2"></span>
-                  Reportes
-                </a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="/incidentes">
                   <span data-feather="activity"></span>
                   Incidentes
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contacto">
-                  <span data-feather="phone"></span>
-                  Contacto
+                <a class="nav-link" href="/map">
+                  <span data-feather="map-pin"></span>
+                  Ubicación
                 </a>
               </li>
             </ul>

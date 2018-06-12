@@ -1,5 +1,15 @@
 @extends('layout')
 
 @section('content')
-    <h1>Insertar contacto</h1>
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Ubicación de los Contenedores</h1>
+</div>
+    <html>
+        <head>
+            {!!$map['js']!!}
+        </head>
+        <body>
+            {!!$map['html']!!}
+        </body>
+    </html>
 @endsection

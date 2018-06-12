@@ -28,7 +28,7 @@
                   data.addColumn('number', 'Nataniel Cox 153');
                   data.addRows([
                     @foreach ($artefactos as $res)
-                        ['{{$res->FECHA}}' , {{$res->NIVEL}},{{$res->NIVEL2}},{{$res->NIVEL3}}],
+                        ['{{$res->DAY}}' , {{$res->NIVEL}},{{$res->NIVEL2}},{{$res->NIVEL3}}],
                     @endforeach   
                   ]);
                   var options = {
