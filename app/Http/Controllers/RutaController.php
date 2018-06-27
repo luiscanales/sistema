@@ -23,6 +23,7 @@ class RutaController extends Controller
         $config['scrollwheel'] = false;
         $config['trafficOverlay'] = TRUE;
         $config['directions'] = TRUE;
+        $config['directionsMode']="DRIVING";
         $config['directionsStart'] = 'Santiago 1390, Santiago';
         $config['directionsEnd'] = 'Santiago 1390, Santiago';
         for($i=0;$i<count($ubicaciones);$i++){
